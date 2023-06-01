@@ -1,0 +1,497 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,400&family=Playfair+Display&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+   padding: 0; 
+   
+   box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+.bx-shopping-bag{
+  width: 100px;
+  color: #fff;
+}
+nav{
+   /* box-sizing: border-box;
+  border:2px solid rgb(255,47,165); */
+  background-color: #757373;
+  position: fixed;
+  /* display: flex; */
+  top: 0;
+  left:0;
+  width: 100%;
+  color: #fff;
+  /* align-items: center; */
+  
+}
+nav h2{
+  margin-left: 10px;
+  cursor: pointer;
+  color: black;
+
+}
+nav h2 span{
+  font-style: italic;
+color: yellow;
+
+}
+nav ul{
+  flex: 1;
+  text-align: center;
+
+
+}
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+  /* padding: 4px;    */
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+
+}
+nav ul li a:hover{
+  padding: 12px;
+  background-color: rgb(255,47,165);
+  transition: 1s;
+
+}
+.btn{
+  /* margin-right: -20px; */
+  margin-left:100px;
+}
+nav.btn{
+  color:#000;
+  /* text-decoration: none;
+  margin-right: 5px; */
+  padding: 10px;
+  /* box-sizing: border-box;
+  padding: 12px; */
+  background-color:rgb(255,47,165) ;
+
+
+}
+.content h1{
+  position: absolute;
+  margin-top: 17%;
+  margin-left: 5%;
+  color: #fff;
+  font-size: 50px;
+
+}
+.content span{
+  color: #000;
+}
+/* .shop{
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 26%;
+  font-size: 25px;
+  }
+  .shop a{
+      text-decoration: none;
+      color: blue;
+      border-color: rgb(255,47,165) ;
+      padding: 10px;
+      border: 2px solid;
+
+  } */
+  /* .nava ul li{
+      padding: 20px 150px 20px;
+      list-style-type: none;
+      justify-content: right;
+      display: inline-block;
+      } */
+      /* .na{
+          margin-top: 50%;
+      } */
+
+      .gad{
+        margin-left: 100px;
+      }
+
+      .up{
+        padding: 12px;
+        background-color: yellow;
+        border: transparent;
+      }
+      .ups{
+        padding: 12px;
+        /* background-color:white; */
+        /* border: transparent; */
+        border: rgb(245, 243, 238);
+      }
+     .ox{
+      width: 30px;
+     }
+     .box{
+      /* padding: 90px; */
+      border: solid 0.5px;
+      width: 120px;
+     }
+
+     .cat{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+     .tex{
+      margin-left: -500px;
+     }
+
+     .girl{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      background: linear-gradient(to right, rgb(183, 182, 221), rgb(212, 124, 212));
+      margin-left: 10%;
+      margin-right: 10%;
+
+      
+  }
+  .that{
+      margin-top: 100px;
+      padding-left: 50px;
+  }
+  
+  h3{
+      font-size: 50px;
+  }
+  
+  .dis{
+      background-color: palevioletred;
+      padding: 12px;
+  }
+  
+  .week{
+     text-align: center;
+  }
+  .one{
+      width: 205px;
+      height: 300px;
+     
+  }
+.weep{
+  height: 80%;
+  width: 100%;
+}
+.icons{
+  display: grid;
+      grid-template-columns: repeat(6,1fr);
+      font-size: small;
+     
+     
+}
+
+.icons img{
+  width: 90px;
+  height: 90px;
+ 
+}
+.mobile{
+  border: solid 2px whitesmoke;
+}
+.pad{
+  border: solid 2px whitesmoke;
+}
+.pods{
+  border: solid 2px whitesmoke;
+}
+.tv{
+  border: solid 2px whitesmoke;
+}
+.usb{
+  border: solid 2px whitesmoke;
+ 
+  
+}
+.laptop{
+  border: solid 2px whitesmoke;
+}
+.he{
+  /* background: linear-gradient(to right, rgb(183, 182, 221), rgb(212, 124, 212));
+  /* width: 100%; */
+  /* height: 50%; */
+  
+}
+.cam{
+  width: 10%;
+
+
+} */
+.pro{
+  background: linear-gradient(to right, rgb(183, 182, 221), rgb(212, 124, 212));
+  /* width: 40%;
+  height: 50%; */
+}
+.head{
+  display: grid;
+      grid-template-columns: repeat(2,1fr);
+}
+
+.rectangle {
+  position: relative;
+  width: 450px;
+  height: 200px;
+  background: linear-gradient(to right, darkblue, skyblue);
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 10%;
+}
+.rectangle img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.rectangle .overlay-text {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+}
+.rectangle .overlay-text p{
+  font-size: 15px;
+}
+.rectangle .overlay-text span {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+.tex{
+  width: 160%;
+}
+.rectangle .overlay-text sub {
+  font-size: 15px;
+}
+.rectangle .product-image {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: 18%;
+}
+.rectangle .product-image2 {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: 28%;
+}
+.rectangle .product-description {
+margin-left: 2%;
+}
+.rectangle2{
+  position: relative;
+  width: 450px;
+  height: 200px;
+  background: linear-gradient(to right, lightpink, lightgrey);
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 52%;
+  margin-top: -13em;
+}
+.rectangle2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.rectangle2 .overlay-text {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+}
+.rectangle2 .overlay-text p{
+  font-size: 15px;
+}
+.rectangle2 .overlay-text span {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+.rectangle2 .product-description {
+margin-left: 2%;
+}
+.Headphones{
+  width: 10px;
+}
+
+/* start of footer */
+.footer{
+  color: white;
+  background-color: #757373;
+justify-content: space-between;
+display: flex;
+padding: 80px;
+
+}
+
+#co{
+  display: inline-flex;
+  font-size: larger;
+  color: white;
+}
+#Home{
+  color: yellow;
+}
+   
+.mail{
+  padding: 30px;
+  background-color: yellow;
+  border:none;
+  width: 90%;
+}
+.bx-send{
+  margin-left: -30px;
+}
+.bx-headphone{
+ width: 8%;
+}
+.line-container {
+  position: relative;
+}
+/* .line {
+  height: 1px;
+  background-color: #000;
+  width: 70%;
+  margin-left: 60px;
+  margin-right: 50px;
+} */
+.line {
+  height: 2px;
+  background-color: #000;
+  width: 50%; 
+  margin-left: 100px;
+  margin-right: 10px;
+  position: relative;
+  left: 100px;
+}
+.line:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  width: 90px;
+  height: 2px;
+}
+.yellow{
+  display: grid;
+      grid-template-columns: repeat(3,1fr);
+}
+.test{
+  text-align: center;
+}
+.zu{
+  margin-left: 600px;
+  margin-top: -150px;
+  
+
+}
+.men img{
+
+ border-radius: 6px;
+
+}
+
+/* end of footer */
+
+.product-card {
+  width: 400px;
+  margin-bottom: 20px;
+  background-color: #F1F1F1;
+  padding: 10px;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+.product-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.productPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productPrice p {
+  /* margin: 0; */
+}
+.productPrice button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+/* #products {
+  gap: 3%;
+  margin-top: 15px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-bottom: 15%;
+   margin-left:3% ;
+   
+}
+#products img{
+  width: 250px;
+  height: 200px;
+}
+#products button{
+  border-style: none;
+  padding: 14px 14px;
+  background-color: yellow;
+}
+.Accessories{
+  /* margin-left: 3%;
+  background-color: whitesmoke;
+  height: 190vh;
+  background-size: cover; */
+  /* position: relative;
+  top: 200px; */
+/* } */
+
+#allContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* width: 50%; */
+
+} */
+
+/* .people{
+  border:solid rgb(159, 159, 159);
+  margin-bottom: 3%;
+  border-radius: 5px;
+  text-align: center;
+  
+} */
+
+
+    
+    /* @media(max-width:767){
+        .footer-col{
+            width:50%;
+            margin-bottom: 30px;
+        }
+    }
+    @media(max-width:574){
+        .footer-col{
+            width:100%;
+            
+        }
+    } */
