@@ -31,10 +31,6 @@ function generateProductCards(data) {
   fetchProducts()
 
 
-
-
-
-
  const line = document.querySelector('.line');
 const yellowSegment = document.querySelector('.line:before');
 yellowSegment.style.width = '100px';

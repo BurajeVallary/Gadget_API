@@ -90,29 +90,7 @@ nav.btn{
 .content span{
   color: #000;
 }
-/* .shop{
-  position: absolute;
-  margin-left: 12%;
-  margin-top: 26%;
-  font-size: 25px;
-  }
-  .shop a{
-      text-decoration: none;
-      color: blue;
-      border-color: rgb(255,47,165) ;
-      padding: 10px;
-      border: 2px solid;
 
-  } */
-  /* .nava ul li{
-      padding: 20px 150px 20px;
-      list-style-type: none;
-      justify-content: right;
-      display: inline-block;
-      } */
-      /* .na{
-          margin-top: 50%;
-      } */
 
       .gad{
         margin-left: 100px;
@@ -125,15 +103,14 @@ nav.btn{
       }
       .ups{
         padding: 12px;
-        /* background-color:white; */
-        /* border: transparent; */
+      
         border: rgb(245, 243, 238);
       }
      .ox{
       width: 30px;
      }
      .box{
-      /* padding: 90px; */
+      
       border: solid 0.5px;
       width: 120px;
      }
@@ -214,21 +191,15 @@ nav.btn{
 .laptop{
   border: solid 2px whitesmoke;
 }
-.he{
-  /* background: linear-gradient(to right, rgb(183, 182, 221), rgb(212, 124, 212));
-  /* width: 100%; */
-  /* height: 50%; */
-  
-}
+
 .cam{
   width: 10%;
 
 
-} */
+} 
 .pro{
   background: linear-gradient(to right, rgb(183, 182, 221), rgb(212, 124, 212));
-  /* width: 40%;
-  height: 50%; */
+ 
 }
 .head{
   display: grid;
@@ -314,9 +285,7 @@ margin-left: 2%;
 background-color: #000;
 
 }
-/* .pad p{
-color: #F1F1F1;
-} */
+
 .pad:hover p{
   color: #F1F1F1;
 }
@@ -374,13 +343,7 @@ padding: 80px;
 .line-container {
   position: relative;
 }
-/* .line {
-  height: 1px;
-  background-color: #000;
-  width: 70%;
-  margin-left: 60px;
-  margin-right: 50px;
-} */
+
 .line {
   height: 2px;
   background-color: #000;
@@ -454,16 +417,13 @@ padding: 80px;
   margin: 10px 0;
 }
 .productPrice {
-  /* display: flex; */
-  /* justify-content: space-between; */
+
   align-items: center;
   display: grid;
   grid-template-columns: repeat(4,2fr);
 
 }
-.productPrice p {
-  /* margin: 0; */
-}
+
 .productPrice button {
   background-color: yellow;
   color: black;
@@ -473,60 +433,15 @@ padding: 80px;
 }
 
 
-/* #products {
-  gap: 3%;
-  margin-top: 15px;
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   margin-bottom: 15%;
-   margin-left:3% ;
-   
-}
-#products img{
-  width: 250px;
-  height: 200px;
-}
-#products button{
-  border-style: none;
-  padding: 14px 14px;
-  background-color: yellow;
-}
-.Accessories{
-  /* margin-left: 3%;
-  background-color: whitesmoke;
-  height: 190vh;
-  background-size: cover; */
-  /* position: relative;
-  top: 200px; */
-/* } */
 
 #allContent{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* width: 50%; */
-
-} */
-
-/* .people{
-  border:solid rgb(159, 159, 159);
-  margin-bottom: 3%;
-  border-radius: 5px;
-  text-align: center;
   
-} */
+
+} 
 
 
-    
-    /* @media(max-width:767){
-        .footer-col{
-            width:50%;
-            margin-bottom: 30px;
-        }
-    }
-    @media(max-width:574){
-        .footer-col{
-            width:100%;
-            
-        }
-    } */
+
+
