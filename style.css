@@ -1,12 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,200;1,400&family=Playfair+Display&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
-
+body{
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+}
 *{
     margin: 0;
    padding: 0; 
-   
+  
    box-sizing: border-box;
    font-family: 'Courier New', Courier, monospace;
+
 
 }
 .bx-shopping-bag{
@@ -306,6 +310,16 @@ margin-left: 2%;
   object-fit: cover;
   opacity: 0.8;
 }
+.pad:hover {
+background-color: #000;
+
+}
+/* .pad p{
+color: #F1F1F1;
+} */
+.pad:hover p{
+  color: #F1F1F1;
+}
 .rectangle2 .overlay-text {
   position: relative;
   z-index: 1;
@@ -390,6 +404,9 @@ padding: 80px;
   display: grid;
       grid-template-columns: repeat(3,1fr);
 }
+.two{
+  margin-left: 40px;
+}
 .test{
   text-align: center;
 }
@@ -408,10 +425,25 @@ padding: 80px;
 /* end of footer */
 
 .product-card {
-  width: 400px;
+  width: 300px;
   margin-bottom: 20px;
   background-color: #F1F1F1;
   padding: 10px;
+}
+.deals{
+  display: flex;
+  gap: 20px;
+  margin-left: 4%;
+}
+.deals h3{
+  margin-left: 13%;
+}
+.deals h4{
+  background-color: black;
+  color:yellow;
+}
+.deals h5{
+  font-size: 30px;
 }
 .product-card img {
   width: 100%;
@@ -422,9 +454,12 @@ padding: 80px;
   margin: 10px 0;
 }
 .productPrice {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+
 }
 .productPrice p {
   /* margin: 0; */
