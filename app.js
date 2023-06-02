@@ -4,8 +4,8 @@
 
 
 
-function generateProductCards(data) {
-    const productContainer = document.getElementById("allContent");
+function cards(data) {
+    const productHolder = document.getElementById("allContent");
     data.forEach((product) => {
       const card = document.createElement("div");
       card.classList.add("product-card");
@@ -17,18 +17,19 @@ function generateProductCards(data) {
               <button>ADD TO CART</button>
               </div>
           `;
-      productContainer.appendChild(card);
+      productHolder.appendChild(card);
     });
   }
-  function fetchProducts() {
+  
+  function productsFetch() {
     fetch("https://dummyjson.com/products?limit100")
       .then((response) => response.json())
       .then((data) => {
         const returnedData = data.products.slice(0, 8);
-        generateProductCards(returnedData);
+        cards(returnedData);
       });
   }
-  fetchProducts()
+  productsFetch()
 
 
  const line = document.querySelector('.line');
